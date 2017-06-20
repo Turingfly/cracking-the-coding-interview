@@ -14,6 +14,7 @@ package chapter02LinkedList;
  *
  */
 public class Partition {
+	// method 1
 	public ListNode partition(ListNode head, int x) {
 		ListNode less = new ListNode(0);
 		ListNode greater = new ListNode(0);
@@ -34,5 +35,30 @@ public class Partition {
 		l2.next = null;
 		l1.next = greater.next;
 		return less.next;
+	}
+	
+	/**
+	 * method 2; Do not care about the relative order
+	 * 
+	 * Elements bigger than the pivot element are put at the tail and elements
+	 * smaller are put at the head. Each time we insert an element, we update
+	 * wither the head or tail.
+	 * 
+	 */
+	public ListNode partition2(ListNode node, int x) {
+		ListNode head = node;
+		ListNode tail = node;
+		while (node != null) {
+			if (node.val < x) {
+				node.next = head;
+				head = node;
+			} else {
+				tail.next = node;
+				tail = node;
+			}
+			node = node.next;
+		}
+		tail.next = null;
+		return head;
 	}
 }
