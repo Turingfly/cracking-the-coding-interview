@@ -31,10 +31,14 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 ## LinkedList
 
 - [Delete Middle Node](./src/chapter02LinkedList/DeleteMiddleNode.java) <br />
+- [Intersection](./src/chapter02LinkedList/Intersection.java) <br />
 - [ListNode](./src/chapter02LinkedList/ListNode.java) <br />
+- [Loop Detection](./src/chapter02LinkedList/LoopDetection.java) <br />
+- [Palindrome](./src/chapter02LinkedList/Palindrome.java) <br />
 - [Partition](./src/chapter02LinkedList/Partition.java) <br />
 - [Remove Duplicates](./src/chapter02LinkedList/RemoveDuplicates.java) <br />
 - [Return Kth To Last](./src/chapter02LinkedList/ReturnKthToLast.java) <br />
+- [Sum Lists](./src/chapter02LinkedList/SumLists.java) <br />
 
 ## Stacks and Queues
 
