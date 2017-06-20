@@ -30,6 +30,12 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ## LinkedList
 
+- [Delete Middle Node](./src/chapter02LinkedList/DeleteMiddleNode.java) <br />
+- [ListNode](./src/chapter02LinkedList/ListNode.java) <br />
+- [Partition](./src/chapter02LinkedList/Partition.java) <br />
+- [Remove Duplicates](./src/chapter02LinkedList/RemoveDuplicates.java) <br />
+- [Return Kth To Last](./src/chapter02LinkedList/ReturnKthToLast.java) <br />
+
 ## Stacks and Queues
 
 ## Trees and Graphs
