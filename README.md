@@ -1,4 +1,4 @@
-# Cracking the Coding Interview (6th Edition)
+# Cracking the Coding Interview (6th Edition) ![Language](https://img.shields.io/badge/language-Java%20-red.svg)
 
 Java solutions to problems in the book Cracking the Coding Interview(6th Edition). 
 
@@ -49,6 +49,13 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Sort Stack](./src/chapter03StacksAndQueues/SortStack.java) <br />
 
 ## Trees and Graphs
+
+- [List of Depths](./src/chapter04TreesAndGraphs/ListOfDepths.java) <br />
+- [Minimal Tree](./src/chapter04TreesAndGraphs/MinimalTree.java) <br />
+- [Route between Nodes](./src/chapter04TreesAndGraphs/RouteBetweenNodes.java) <br />
+- [Tree Node](./src/chapter04TreesAndGraphs/TreeNode.java) <br />
+
+
 
 ## Bit Manipulation
 
