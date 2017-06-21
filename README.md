@@ -42,6 +42,12 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ## Stacks and Queues
 
+- [Animal Shelter](./src/chapter03StacksAndQueues/AnimalShelter.java) <br />
+- [Three Stacks in One Array](./src/chapter03StacksAndQueues/ArrayToStack.java) <br />
+- [Implement Queue Using Stacks](./src/chapter03StacksAndQueues/ImplementQueueUsingStacks.java) <br />
+- [Min Stack](./src/chapter03StacksAndQueues/MinStack.java) <br />
+- [Sort Stack](./src/chapter03StacksAndQueues/SortStack.java) <br />
+
 ## Trees and Graphs
 
 ## Bit Manipulation
