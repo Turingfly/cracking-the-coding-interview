@@ -50,12 +50,13 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ## Trees and Graphs
 
+- [Check Balanced Tree](./src/chapter04TreesAndGraphs/CheckBalancedTree.java) <br />
 - [List of Depths](./src/chapter04TreesAndGraphs/ListOfDepths.java) <br />
 - [Minimal Tree](./src/chapter04TreesAndGraphs/MinimalTree.java) <br />
 - [Route between Nodes](./src/chapter04TreesAndGraphs/RouteBetweenNodes.java) <br />
+- [Successor](./src/chapter04TreesAndGraphs/Successor.java) <br />
 - [Tree Node](./src/chapter04TreesAndGraphs/TreeNode.java) <br />
-
-
+- [Validate BST](./src/chapter04TreesAndGraphs/ValidateBST.java) <br />
 
 ## Bit Manipulation
 
