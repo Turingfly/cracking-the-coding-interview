@@ -52,6 +52,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 ## Trees and Graphs
 
 - [Check Balanced Tree](./src/chapter04TreesAndGraphs/CheckBalancedTree.java) <br />
+- [First Common Ancestor](./src/chapter04TreesAndGraphs/FirstCommonAncestor.java) <br />
 - [List of Depths](./src/chapter04TreesAndGraphs/ListOfDepths.java) <br />
 - [Minimal Tree](./src/chapter04TreesAndGraphs/MinimalTree.java) <br />
 - [Route between Nodes](./src/chapter04TreesAndGraphs/RouteBetweenNodes.java) <br />
