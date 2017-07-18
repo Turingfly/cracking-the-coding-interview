@@ -5,19 +5,19 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ## Table of Contents
 
-* [Arrays and Strings](#arrays-and-strings)
-* [LinkedList](#linkedlist)
-* [Stacks and Queues](#stacks-and-queues)
-* [Trees and Graphs](#trees-and-graphs)
-* [Bit Manipulation](#bit-manipulation)
-* [Math and Logic Puzzles](#math-and-logic-puzzles)
-* [Object Oriented Design](#object-oriented-design)
-* [System Design and Scalability](#system-design-and-scalability)
-* [Sorting and Searching](#sorting-and-searching)
-* [Testing](#testing)
-* [Additional Review Problems](#additional-review-problems)
+* **[Arrays and Strings](#arrays-and-strings)**
+* **[LinkedList](#linkedlist)**
+* **[Stacks and Queues](#stacks-and-queues)**
+* **[Trees and Graphs](#trees-and-graphs)**
+* **[Bit Manipulation](#bit-manipulation)**
+* **[Math and Logic Puzzles](#math-and-logic-puzzles)**
+* **[Object Oriented Design](#object-oriented-design)**
+* **[System Design and Scalability](#system-design-and-scalability)**
+* **[Sorting and Searching](#sorting-and-searching)**
+* **[Testing](#testing)**
+* **[Additional Review Problems](#additional-review-problems)**
 
-## Arrays and Strings
+### Arrays and Strings
 
 - [Check Permutation](./src/chapter01ArraysAndStrings/CheckPermutation.java) <br />
 - [Is Unique](./src/chapter01ArraysAndStrings/IsUnique.java) <br />
@@ -29,7 +29,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Urlify](./src/chapter01ArraysAndStrings/Urlify.java) <br />
 - [Zero Matrix](./src/chapter01ArraysAndStrings/ZeroMatrix.java) <br />
 
-## LinkedList
+### LinkedList
 
 - [Delete Middle Node](./src/chapter02LinkedList/DeleteMiddleNode.java) <br />
 - [Intersection](./src/chapter02LinkedList/Intersection.java) <br />
@@ -41,7 +41,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Return Kth To Last](./src/chapter02LinkedList/ReturnKthToLast.java) <br />
 - [Sum Lists](./src/chapter02LinkedList/SumLists.java) <br />
 
-## Stacks and Queues
+### Stacks and Queues
 
 - [Animal Shelter](./src/chapter03StacksAndQueues/AnimalShelter.java) <br />
 - [Three Stacks in One Array](./src/chapter03StacksAndQueues/ArrayToStack.java) <br />
@@ -49,7 +49,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Min Stack](./src/chapter03StacksAndQueues/MinStack.java) <br />
 - [Sort Stack](./src/chapter03StacksAndQueues/SortStack.java) <br />
 
-## Trees and Graphs
+### Trees and Graphs
 
 - [Check Balanced Tree](./src/chapter04TreesAndGraphs/CheckBalancedTree.java) <br />
 - [First Common Ancestor](./src/chapter04TreesAndGraphs/FirstCommonAncestor.java) <br />
@@ -62,18 +62,18 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Tree Node](./src/chapter04TreesAndGraphs/TreeNode.java) <br />
 - [Validate BST](./src/chapter04TreesAndGraphs/ValidateBST.java) <br />
 
-## Bit Manipulation
+### Bit Manipulation
 
 - [Insertion](./src/chapter05BitManipulation/Insertion.java) <br />
 
-## Math and Logic Puzzles
+### Math and Logic Puzzles
 
-## Object Oriented Design
+### Object Oriented Design
 
-## System Design and Scalability
+### System Design and Scalability
 
-## Sorting and Searching
+### Sorting and Searching
 
-## Testing
+### Testing
 
-## Additional Review Problems
+### Additional Review Problems
