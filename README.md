@@ -55,6 +55,8 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [First Common Ancestor](./src/chapter04TreesAndGraphs/FirstCommonAncestor.java) <br />
 - [List of Depths](./src/chapter04TreesAndGraphs/ListOfDepths.java) <br />
 - [Minimal Tree](./src/chapter04TreesAndGraphs/MinimalTree.java) <br />
+- [Paths with Sum](./src/chapter04TreesAndGraphs/PathsWithSum.java) <br />
+- [Random Node](./src/chapter04TreesAndGraphs/RandomNode.java) <br />
 - [Route between Nodes](./src/chapter04TreesAndGraphs/RouteBetweenNodes.java) <br />
 - [Successor](./src/chapter04TreesAndGraphs/Successor.java) <br />
 - [Tree Node](./src/chapter04TreesAndGraphs/TreeNode.java) <br />
