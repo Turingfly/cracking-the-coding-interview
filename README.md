@@ -12,6 +12,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 * **[Bit Manipulation](#bit-manipulation)**
 * **[Math and Logic Puzzles](#math-and-logic-puzzles)**
 * **[Object Oriented Design](#object-oriented-design)**
+* **[Recursion and Dynamic Programming](#recursion-and-dynamic-programming)**
 * **[System Design and Scalability](#system-design-and-scalability)**
 * **[Sorting and Searching](#sorting-and-searching)**
 * **[Testing](#testing)**
