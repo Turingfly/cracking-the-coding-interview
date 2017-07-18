@@ -64,6 +64,8 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ## Bit Manipulation
 
+- [Insertion](./src/chapter05BitManipulation/Insertion.java) <br />
+
 ## Math and Logic Puzzles
 
 ## Object Oriented Design
