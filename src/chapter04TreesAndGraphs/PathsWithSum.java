@@ -72,6 +72,10 @@ public class PathsWithSum {
 	 * work; it reverses the changes to the hash table so that other nodes don't
 	 * use it.
 	 * 
+	 * Time Complexity: O(N), where N is the number of nodes in the tree.
+	 * We travel to each node just once, doing O(1) operation each time.
+	 * 
+	 * Space Complexity: O(logN) in a balanced tree. O(N) in an unbalanced tree.
 	 */
 	public int countPathsWithSum2(TreeNode root, int targetSum) {
 		return countPathsWithSum2(root, targetSum, 0, new HashMap<Integer, Integer>());
