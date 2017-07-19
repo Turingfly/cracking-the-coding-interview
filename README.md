@@ -66,8 +66,12 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 ### Bit Manipulation
 
 - [Binary to String](./src/chapter05BitManipulation/BinaryToString.java) <br />
+- [Conversion](./src/chapter05BitManipulation/Conversion.java) <br />
+- [FlipBitToWin](./src/chapter05BitManipulation/FlipBitToWin.java) <br />
 - [Insertion](./src/chapter05BitManipulation/Insertion.java) <br />
 - [Intro](./src/chapter05BitManipulation/Intro.java) <br />
+- [NextNumber](./src/chapter05BitManipulation/Intro.java) <br />
+- [PairwiseSwap](./src/chapter05BitManipulation/PairwiseSwap.java) <br />
 
 ### Math and Logic Puzzles
 
