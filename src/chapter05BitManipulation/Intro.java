@@ -61,4 +61,9 @@ public class Intro {
 		int mask = ~(1 << i);
 		return (num & mask) | (val << i);
 	}
+	
+	// n == 0 | n is a power of 2
+	public boolean powerOfTwo(int n) {
+		return (n & (n - 1)) == 0;
+	}
 }
