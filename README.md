@@ -67,13 +67,15 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 - [Binary to String](./src/chapter05BitManipulation/BinaryToString.java) <br />
 - [Conversion](./src/chapter05BitManipulation/Conversion.java) <br />
-- [FlipBitToWin](./src/chapter05BitManipulation/FlipBitToWin.java) <br />
+- [Flip Bit to Win](./src/chapter05BitManipulation/FlipBitToWin.java) <br />
 - [Insertion](./src/chapter05BitManipulation/Insertion.java) <br />
-- [Intro](./src/chapter05BitManipulation/Intro.java) <br />
-- [NextNumber](./src/chapter05BitManipulation/Intro.java) <br />
-- [PairwiseSwap](./src/chapter05BitManipulation/PairwiseSwap.java) <br />
+- [Introduction](./src/chapter05BitManipulation/Intro.java) <br />
+- [Next Number](./src/chapter05BitManipulation/Intro.java) <br />
+- [Pairwise Swap](./src/chapter05BitManipulation/PairwiseSwap.java) <br />
 
 ### Math and Logic Puzzles
+
+- [Generate a List of Primes](./src/chapter06MathAndLogicPuzzles/GenerateAListOfPrimes.java) <br />
 
 ### Object Oriented Design
 
