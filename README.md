@@ -82,6 +82,9 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 ### Recursion and Dynamic Programming
 
 - [Fibonacci](./src/chapter08RecursionAndDynamicProgramming/Fibonacci.java) <br />
+- [Magic Index](./src/chapter08RecursionAndDynamicProgramming/MagicIndex.java) <br />
+- [Robot In a Grid](./src/chapter08RecursionAndDynamicProgramming/RobotInAGrid.java) <br />
+- [Triple Steps](./src/chapter08RecursionAndDynamicProgramming/TripleSteps.java) <br />
 
 ### System Design and Scalability
 
