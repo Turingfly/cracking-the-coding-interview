@@ -81,9 +81,20 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ### Recursion and Dynamic Programming
 
+- [Boolean Evaluation](./src/chapter08RecursionAndDynamicProgramming/BooleanEvaluation.java) <br />
+- [Coins](./src/chapter08RecursionAndDynamicProgramming/Coins.java) <br />
+- [Eight Queues](./src/chapter08RecursionAndDynamicProgramming/EightQueues.java) <br />
 - [Fibonacci](./src/chapter08RecursionAndDynamicProgramming/Fibonacci.java) <br />
 - [Magic Index](./src/chapter08RecursionAndDynamicProgramming/MagicIndex.java) <br />
+- [Paint Fill](./src/chapter08RecursionAndDynamicProgramming/PaintFill.java) <br />
+- [Parenthesis](./src/chapter08RecursionAndDynamicProgramming/Parenthesis.java) <br />
+- [Permutations with Duplicates](./src/chapter08RecursionAndDynamicProgramming/PermutationsWithDuplicates.java) <br />
+- [Permutations without Duplicates](./src/chapter08RecursionAndDynamicProgramming/PermutationsWithoutDups.java) <br />
+- [Power Set](./src/chapter08RecursionAndDynamicProgramming/PowerSet.java) <br />
+- [Recursive Multiply](./src/chapter08RecursionAndDynamicProgramming/RecursiveMultiply.java) <br />
 - [Robot In a Grid](./src/chapter08RecursionAndDynamicProgramming/RobotInAGrid.java) <br />
+- [Stack of Boxes](./src/chapter08RecursionAndDynamicProgramming/StackOfBoxes.java) <br />
+- [Towers of Hanoi](./src/chapter08RecursionAndDynamicProgramming/TowersOfHanoi.java) <br />
 - [Triple Steps](./src/chapter08RecursionAndDynamicProgramming/TripleSteps.java) <br />
 
 ### System Design and Scalability
