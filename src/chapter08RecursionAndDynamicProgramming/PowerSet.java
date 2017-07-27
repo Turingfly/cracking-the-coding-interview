@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import chapter05BitManipulation.Conversion;
-
 /**
  * 
  * Problem: Write a method to return all subsets of a set.
