@@ -101,6 +101,15 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 ### Sorting and Searching
 
+- [Group Anagrams](./src/chapter10SortingAndSearching/GroupAnagrams.java) <br />
+- [Merge Sort](./src/chapter10SortingAndSearching/MergeSort.java) <br />
+- [Quick Sort](./src/chapter10SortingAndSearching/QuickSort.java) <br />
+- [Search in Rotated Array](./src/chapter10SortingAndSearching/SearchInRotatedArray.java) <br />
+- [Sort Big File](./src/chapter10SortingAndSearching/SortBigFile.java) <br />
+- [Sorted Merge](./src/chapter10SortingAndSearching/SortedMerge.java) <br />
+- [Sorted Search No Size](./src/chapter10SortingAndSearching/SortedSearchNoSize.java) <br />
+- [Sparse Search](./src/chapter10SortingAndSearching/SparseSearch.java) <br />
+
 ### Testing
 
 ### Additional Review Problems (Moderate)
