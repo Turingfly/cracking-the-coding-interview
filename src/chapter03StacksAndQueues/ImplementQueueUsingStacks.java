@@ -4,13 +4,6 @@ import java.util.Stack;
 
 /**
  * 
- * @author chengfeili 
- * Jun 16, 2017 11:49:18 AM
- * 
- *         Problem:
- *
- *         Solution:
- *
  */
 public class ImplementQueueUsingStacks {
 	Stack<Integer> input = new Stack<>();

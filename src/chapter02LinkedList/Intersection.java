@@ -2,9 +2,6 @@ package chapter02LinkedList;
 
 /**
  * 
- * @author chengfeili
- * Jun 20, 2017 12:04:28 PM
- * 
  * Problem: 
  * Write a program to find the node at which the intersection of two singly linked lists begins.
 For example, the following two linked lists:

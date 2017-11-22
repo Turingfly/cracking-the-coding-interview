@@ -5,14 +5,9 @@ import java.util.Queue;
 
 /**
  * 
- * @author chengfeili 
- * Jun 21, 2017 3:26:28 PM
+ * Problem: Given a directed graph, design an algorithm to find out whether
+ * there is a route between two nodes.
  * 
- *         Problem: Given a directed graph, design an algorithm to find out
- *         whether there is a route between two nodes.
- * 
- *         Solution: 
- *
  */
 public class RouteBetweenNodes {
 	public enum State {

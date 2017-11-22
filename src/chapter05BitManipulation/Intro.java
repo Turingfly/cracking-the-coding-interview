@@ -2,9 +2,6 @@ package chapter05BitManipulation;
 
 /**
  * 
- * @author chengfeili
- * Jul 18, 2017 9:38:09 AM
- * 
  * Bit Facts and Tricks
  * x ^ 0s = x       x & 0s = 0		x | 0s = x
  * x ^ 1s = ~x		x & 1s = x		x | 1s = 1s

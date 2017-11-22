@@ -2,19 +2,20 @@ package chapter01ArraysAndStrings;
 
 /**
  * 
- * @author chengfeili 
- * Jun 15, 2017 11:48:50 AM
- * 
- *         Problem: Given two strings, write a method to decide if one is a
- *         permutation of other.
+ * Problem: Given two strings, write a method to decide if one is a permutation
+ * of other.
  *
- *         Solution: clarify case sensitive and whitespace
+ * Solution: clarify case sensitive and whitespace
  *
  */
 public class CheckPermutation {
-	// method1: sort then compare.
+	/**
+	 * method1: sort then compare.
+	 */
 
-	// method2: Check if two strings have identical character counts
+	/**
+	 * method2: Check if two strings have identical character counts
+	 */
 	public boolean perm(String s1, String s2) {
 		if (s1 == null || s2 == null || s1.length() != s2.length()) {
 			return false;

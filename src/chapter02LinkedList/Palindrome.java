@@ -4,16 +4,15 @@ import java.util.Stack;
 
 /**
  * 
- * @author chengfeili 
- * Jun 20, 2017 11:50:34 AM
- * 
  * Problem: Given a singly linked list, determine if it is a palindrome.
+ * 
  * Follow up: Could you do it in O(n) time and O(1) space?
  * 
- *
  */
 public class Palindrome {
-	// method 1: O(1) Space. The original LinkedList is changed
+	/**
+	 * method 1: O(1) Space. The original LinkedList is changed
+	 */
 	public boolean isPalindrome1(ListNode head) {
 		ListNode slow = head;
 		ListNode fast = head;
@@ -49,7 +48,9 @@ public class Palindrome {
 		return newHead;
 	}
 
-	// method 2: Stack, keep original LinkedList
+	/**
+	 * method 2: Stack, keep original LinkedList
+	 */
 	public boolean isPalindrome2(ListNode head) {
 		ListNode slow = head;
 		ListNode fast = head;

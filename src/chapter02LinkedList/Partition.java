@@ -2,19 +2,17 @@ package chapter02LinkedList;
 
 /**
  * 
- * @author chengfeili
- * Jun 19, 2017 9:38:52 PM
- * 
  * Problem: Given a linked list and a value x, partition it such that all nodes
- * less than x come before nodes greater than or equal to x.
- * You should preserve the original relative order of the nodes in each of the
- * two partitions.
- * For example, Given 1->4->3->2->5->2 and x = 3, return 1->2->2->4->3->5.
+ * less than x come before nodes greater than or equal to x. You should preserve
+ * the original relative order of the nodes in each of the two partitions.
  * 
+ * For example, Given 1->4->3->2->5->2 and x = 3, return 1->2->2->4->3->5.
  *
  */
 public class Partition {
-	// method 1
+	/**
+	 * method 1
+	 */
 	public ListNode partition(ListNode head, int x) {
 		ListNode less = new ListNode(0);
 		ListNode greater = new ListNode(0);
@@ -36,7 +34,7 @@ public class Partition {
 		l1.next = greater.next;
 		return less.next;
 	}
-	
+
 	/**
 	 * method 2; Do not care about the relative order
 	 * 

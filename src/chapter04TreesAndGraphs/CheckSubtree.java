@@ -2,9 +2,6 @@ package chapter04TreesAndGraphs;
 
 /**
  * 
- * @author chengfeili 
- * Jul 16, 2017 9:33:22 PM
- * 
  * Problem: T1 and T2 are tow very large binary trees, with T1 much bigger than
  * T2. Create an algorithm to determine if T2 is a subtree of T1.
  * 

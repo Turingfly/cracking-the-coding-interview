@@ -6,20 +6,14 @@ import java.util.List;
 
 /**
  * 
- * @author chengfeili 
- * Jun 21, 2017 4:31:33 PM
- * 
- *         Problem: Given a binary tree, design an algorithm which creates a
- *         linked list of all the nodes at each depth (e.g., if you have a tree
- *         with depth D, you'll have D linked lists).
- *
- *         Solution:
+ * Problem: Given a binary tree, design an algorithm which creates a linked list
+ * of all the nodes at each depth (e.g., if you have a tree with depth D, you'll
+ * have D linked lists).
  *
  */
 public class ListOfDepths {
 	/**
-	 * method 1: DFS 
-	 * A simple modification of pre-order traversal;
+	 * method 1: DFS A simple modification of pre-order traversal;
 	 * 
 	 * Time: O(N); Extra Space: O(logN)
 	 */

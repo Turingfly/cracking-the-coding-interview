@@ -2,19 +2,13 @@ package chapter01ArraysAndStrings;
 
 /**
  * 
- * @author chengfeili 
- * Jun 15, 2017 11:29:15 AM
- * 
- *         Problem: Implement an algorithm to determine if a string has all
- *         unique characters. No extra data structure.
- *
- *         Solution:
+ * Problem: Implement an algorithm to determine if a string has all unique
+ * characters. No extra data structure.
  *
  */
 
 public class IsUnique {
 	/**
-	 * 
 	 * O(N) O(1)
 	 */
 	public boolean isUnique1(String s) {
@@ -33,8 +27,8 @@ public class IsUnique {
 	}
 
 	/**
-	 * Assume the string only uses lowercase letters. Use just a single int(32bits) 
-	 * to save more space complexity
+	 * Assume the string only uses lowercase letters. Use just a single
+	 * int(32bits) to save more space complexity
 	 */
 	public boolean isUnique2(String s) {
 		if (s == null || s.length() > 26) {

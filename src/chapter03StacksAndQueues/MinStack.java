@@ -4,14 +4,11 @@ import java.util.Stack;
 
 /**
  * 
- * @author chengfeili 
- * Jun 16, 2017 11:07:40 AM
- * 
- *         Problem: How would you design a stack which, in addition to push and
- *         pop, has a function min which returns the minimum element? Push, pop
- *         and min should all operate in 0(1) time.
+ * Problem: How would you design a stack which, in addition to push and pop, has
+ * a function min which returns the minimum element? Push, pop and min should
+ * all operate in 0(1) time.
  *
- *         Solution: Use an additional stack which keeps track of the mins.
+ * Solution: Use an additional stack which keeps track of the mins.
  *
  */
 public class MinStack extends Stack<Integer> {

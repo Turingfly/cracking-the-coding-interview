@@ -4,13 +4,7 @@ import java.util.EmptyStackException;
 
 /**
  * 
- * @author chengfeili 
- * Jun 21, 2017 10:08:38 AM
- * 
- *         Problem: Describe how you could use a single array to implement three
- *         stacks.
- *
- *         Solution:
+ * Problem: Describe how you could use a single array to implement three stacks.
  *
  */
 public class ArrayToStack {

@@ -2,50 +2,27 @@ package chapter04TreesAndGraphs;
 
 /**
  * 
- * @author chengfeili 
- * Jun 22, 2017 10:18:07 PM
- * 
- *         Problem: Write an algorithm to find the "next" node (i.e., in-order
- *         successor) of a given node in a binary search tree. You may assume
- *         that each node has a link to its parent.
- *
- *         Solution:
+ * Problem: Write an algorithm to find the "next" node (i.e., in-order
+ * successor) of a given node in a binary search tree. You may assume that each
+ * node has a link to its parent.
  *
  */
 public class Successor {
-	
-	// with parent 
+
+	// with parent
 	/**
-	public TreeNode inOrderSuccessor(TreeNode root) {
-		if (root == null) {
-			return null;
-		}
-		// Found right children -> return leftmost node of right subtree.
-		if (root.right != null) {
-			return leftMostchild(root.right);
-		} else {
-			TreeNode q = root;
-			TreeNode x = q.parent;
-			// Go up until we are on left instead of right
-			while (x != null && x.left != q) {
-				q = x;
-				x = x.parent;
-			}
-			return x;
-		}
-	}
-	
-	private TreeNode leftMostchild(TreeNode root) {
-		if (root == null) {
-			return null;
-		}
-		while (root.left != null) {
-			root = root.left;
-		}
-		return root;
-	}
-	*/
-	
+	 * public TreeNode inOrderSuccessor(TreeNode root) { if (root == null) {
+	 * return null; } // Found right children -> return leftmost node of right
+	 * subtree. if (root.right != null) { return leftMostchild(root.right); }
+	 * else { TreeNode q = root; TreeNode x = q.parent; // Go up until we are on
+	 * left instead of right while (x != null && x.left != q) { q = x; x =
+	 * x.parent; } return x; } }
+	 * 
+	 * private TreeNode leftMostchild(TreeNode root) { if (root == null) {
+	 * return null; } while (root.left != null) { root = root.left; } return
+	 * root; }
+	 */
+
 	// without parent
 	public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
 		if (root == null)

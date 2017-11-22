@@ -4,9 +4,6 @@ import java.util.HashMap;
 
 /**
  * 
- * @author chengfeili 
- * Jul 17, 2017 9:04:58 PM
- * 
  * Problem: You are given a binary tree in which each node contains an integer
  * value (which might be positive or negative). Design an algorithm to count the
  * number of paths that sum to a given value. The path does not need to start or
@@ -72,8 +69,8 @@ public class PathsWithSum {
 	 * work; it reverses the changes to the hash table so that other nodes don't
 	 * use it.
 	 * 
-	 * Time Complexity: O(N), where N is the number of nodes in the tree.
-	 * We travel to each node just once, doing O(1) operation each time.
+	 * Time Complexity: O(N), where N is the number of nodes in the tree. We
+	 * travel to each node just once, doing O(1) operation each time.
 	 * 
 	 * Space Complexity: O(logN) in a balanced tree. O(N) in an unbalanced tree.
 	 */

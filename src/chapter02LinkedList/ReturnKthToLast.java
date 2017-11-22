@@ -1,16 +1,9 @@
 package chapter02LinkedList;
 
 /**
+ * Problem: Implement an algorithm to find the kth to last element of a singly
+ * linked list. 1 -> 2 -> 3 3th to last node is 1
  * 
- * @author chengfeili 
- * Jun 19, 2017 8:38:57 PM
- * 
- *         Problem: Implement an algorithm to find the kth to last element of a
- *         singly linked list. 
- *         1 -> 2 -> 3 3th to last node is 1 
- *         
- *         Solution:
- *
  */
 class Index {
 	public int value = 0;
@@ -18,7 +11,9 @@ class Index {
 
 public class ReturnKthToLast {
 
-	// method 1: recursion; Space O(N)
+	/**
+	 * method 1: recursion; Space O(N)
+	 */
 	public int printKthToLast(ListNode head, int k) {
 		if (head == null) {
 			return 0;
@@ -30,7 +25,9 @@ public class ReturnKthToLast {
 		return index;
 	}
 
-	// method 2: Wrapper class, recursion; Space O(N)
+	/**
+	 * method 2: Wrapper class, recursion; Space O(N)
+	 */
 	public ListNode kthToLast(ListNode head, int k) {
 		Index idx = new Index();
 		return helper(head, k, idx);
@@ -48,7 +45,9 @@ public class ReturnKthToLast {
 		return node;
 	}
 
-	// mehtod 3: iteration Time: O(N), Space O(1)
+	/**
+	 * mehtod 3: iteration Time: O(N), Space O(1)
+	 */
 	public ListNode kthToLast3(ListNode node, int k) {
 		ListNode left = node;
 		ListNode right = node;

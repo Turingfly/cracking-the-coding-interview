@@ -5,7 +5,6 @@ package chapter05BitManipulation;
  * largest number that have the same number of 1 bits in their binary
  * representation.
  * 
- *
  */
 
 public class NextNumber {
@@ -93,4 +92,4 @@ public class NextNumber {
 		num |= mask2 << (c0 - 1);
 		return num;
 	}
- }
+}

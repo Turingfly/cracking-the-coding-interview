@@ -2,14 +2,9 @@ package chapter01ArraysAndStrings;
 
 /**
  * 
- * @author chengfeili 
- * Jun 15, 2017 6:58:12 PM
- * 
- *         Problem: Assume you have a method isSubstring which checks if one
- *         word is a substring of another. Given two Strings, check if s2 is a
- *         rotation of s1 using only one call to isSubstring
- *
- *         Solution:
+ * Problem: Assume you have a method isSubstring which checks if one word is a
+ * substring of another. Given two Strings, check if s2 is a rotation of s1
+ * using only one call to isSubstring
  *
  */
 public class StringRotation {

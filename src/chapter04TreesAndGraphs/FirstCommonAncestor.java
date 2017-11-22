@@ -2,20 +2,16 @@ package chapter04TreesAndGraphs;
 
 /**
  * 
- * @author chengfeili 
- * Jul 2, 2017 10:31:22 PM
+ * Problem: Design an algorithm and write code to find the common ancestor of
+ * two nodes in a binary tree. Avoid storing additional nodes in a data
+ * structure. Note: this is not necessarily a binary search tree.
  * 
- *         Problem: Design an algorithm and write code to find the common
- *         ancestor of two nodes in a binary tree. Avoid storing additional
- *         nodes in a data structure. Note: this is not necessarily a binary
- *         search tree.
- * 
- *         Solution:
- *
  */
 public class FirstCommonAncestor {
-	// method 1: with links to parent. O(d) time. d is the depth of the
-	// shallower node.
+	/**
+	 * method 1: with links to parent. O(d) time. d is the depth of the
+	 * shallower node.
+	 */
 	public TreeNode1 commonAncestor1(TreeNode1 p, TreeNode1 q) {
 		if (p == null || q == null) {
 			return null;
@@ -42,8 +38,10 @@ public class FirstCommonAncestor {
 		return depth;
 	}
 
-	// method 2: with links to parent. O(t) time, where t is the size of the
-	// subtree for the first common ancestor.
+	/**
+	 * method 2: with links to parent. O(t) time, where t is the size of the
+	 * subtree for the first common ancestor.
+	 */
 	public TreeNode1 commonAncestor2(TreeNode1 root, TreeNode1 p, TreeNode1 q) {
 		if (!(covers(root, p) && covers(root, q))) {
 			return null;
@@ -80,7 +78,9 @@ public class FirstCommonAncestor {
 		return parent.left == node ? parent.right : parent.left;
 	}
 
-	// method 3 without links to parent. p and q must be the descendants of root
+	/**
+	 * method 3 without links to parent. p and q must be the descendants of root
+	 */
 	public TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 		if (root == null || root == p || root == q) {
 			return root;

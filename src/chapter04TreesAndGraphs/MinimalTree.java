@@ -2,18 +2,19 @@ package chapter04TreesAndGraphs;
 
 /**
  * 
- * @author chengfeili 
- * Jun 21, 2017 4:21:46 PM
+ * Problem: Given a sorted (increasing order) array with unique integer
+ * elements, write an algorithm to create a binary search tree with minimal
+ * height.
  * 
- *         Problem: Given a sorted (increasing order) array with unique integer
- *         elements, write an algorithm to create a binary search tree with
- *         minimal height.
+ * Solution:
  * 
- *         Solution:
- *         1. Insert into the tree the middle element of the array
- *         2. Insert (into the left subtree) the left sub-array element
- *         3. Insert (into the right subtree) the right sub-array element
- *         4. Recurse
+ * 1. Insert into the tree the middle element of the array
+ * 
+ * 2. Insert (into the left subtree) the left sub-array element
+ * 
+ * 3. Insert (into the right subtree) the right sub-array element
+ * 
+ * 4. Recurse
  *
  */
 public class MinimalTree {
@@ -34,5 +35,4 @@ public class MinimalTree {
 		node.right = helper(array, mid + 1, end);
 		return node;
 	}
-
 }

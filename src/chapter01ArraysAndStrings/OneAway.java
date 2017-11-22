@@ -2,20 +2,19 @@ package chapter01ArraysAndStrings;
 
 /**
  * 
- * @author chengfeili 
- * Jun 15, 2017 4:11:42 PM
+ * Problem: One Away: There are three types of edits that can be performed on
+ * strings: insert a character, remove a character, or replace a character.
+ * Given two strings, write a function to check if they are one edit (or zero
+ * edits) away.
  * 
- *         Problem: One Away: There are three types of edits that can be
- *         performed on strings: insert a character, remove a character, or
- *         replace a character. Given two strings, write a function to check if
- *         they are one edit (or zero edits) away. 
- *         
- *         Solution:
+ * Solution:
  *
  */
 public class OneAway {
-	// method1: replace, insert, delete.
-	// It is clearer and easier to follow but has some duplicate code.
+	/**
+	 * method1: replace, insert, delete.It is clearer and easier to follow but
+	 * has some duplicate code.
+	 */
 	public boolean oneEditAway(String s1, String s2) {
 		if (s1 == null || s2 == null) {
 			return false;
@@ -64,7 +63,9 @@ public class OneAway {
 		return true;
 	}
 
-	// method2: Handle replace and insert in the same method;
+	/**
+	 *  method2: Handle replace and insert in the same method;
+	 */
 	public boolean method2(String s1, String s2) {
 		if (s1 == null || s2 == null || s1.length() - s2.length() == 0) {
 			return false;

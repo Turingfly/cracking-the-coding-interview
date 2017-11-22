@@ -11,7 +11,6 @@ import java.util.List;
  * 
  * EXAMPLE Input: 1775 (or: 11011101111) Output: 8
  *
- *
  */
 
 public class FlipBitToWin {

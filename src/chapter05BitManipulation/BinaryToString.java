@@ -2,16 +2,15 @@ package chapter05BitManipulation;
 
 /**
  * 
- * @author chengfeili
- * Jul 18, 2017 10:00:07 AM
- * 
  * Problem: Given a real number between 0 and 1(e.g., 0.72) that is passed in as
  * a double, print the binary representation. If the number cannot be
  * represented accurately in binary with at most 32 characters, print "ERROR".
  *
  */
 public class BinaryToString {
-	// Method 1: multiplying the number by two and comparing it to 1.
+	/**
+	 * Method 1: multiplying the number by two and comparing it to 1.
+	 */
 	public String getBinary1(double num) {
 		if (num >= 1 || num <= 0) {
 			return "ERROR";
@@ -33,8 +32,10 @@ public class BinaryToString {
 		}
 		return sb.toString();
 	}
-	
-	// Method 2: compare the number to 0.5, 0.25....
+
+	/**
+	 * Method 2: compare the number to 0.5, 0.25....
+	 */
 	public String getBinary2(double num) {
 		if (num >= 1 || num <= 0) {
 			return "ERROR";

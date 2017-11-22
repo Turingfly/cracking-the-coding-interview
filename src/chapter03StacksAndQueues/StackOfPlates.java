@@ -5,25 +5,21 @@ import java.util.List;
 
 /**
  * 
- * @author chengfeili 
- * Jun 21, 2017 10:42:59 AM
+ * Problem: Imagine a (literal) stack of plates. If the stack gets too high, it
+ * might topple. Therefore, in real life, we would likely start a new stack when
+ * the previous stack exceeds some threshold. Implement a data structure
+ * SetOfStacks that mimics this. SetOfStacks should be composed of several
+ * stacks and should create a new stack once the previous one exceeds capacity.
+ * SetOfStacks.push() and SetOfStacks. pop() should behave identically to a
+ * single stack (that is, pop() should return the same values as it would if
+ * there were just a single stack).
  * 
- *         Problem: Imagine a (literal) stack of plates. If the stack gets too
- *         high, it might topple. Therefore, in real life, we would likely start
- *         a new stack when the previous stack exceeds some threshold. Implement
- *         a data structure SetOfStacks that mimics this. SetOfStacks should be
- *         composed of several stacks and should create a new stack once the
- *         previous one exceeds capacity. SetOfStacks.push() and SetOfStacks.
- *         pop() should behave identically to a single stack (that is, pop()
- *         should return the same values as it would if there were just a single
- *         stack).
- * 
- *         FOLLOW UP Implement a function popAt(int index) which performs a pop
- *         operation on a specific,m sub­ stack.
+ * FOLLOW UP Implement a function popAt(int index) which performs a pop
+ * operation on a specific,m sub­ stack.
  *
- *         Solution:popAt() 1. roll over. If we pop an element from stack 1, we
- *         need to remove the bottom of stack2 and push it onto stack1. 2. Some
- *         stacks are not at full capacity.
+ * Solution:popAt() 1. roll over. If we pop an element from stack 1, we need to
+ * remove the bottom of stack2 and push it onto stack1. 2. Some stacks are not
+ * at full capacity.
  *
  */
 public class StackOfPlates {

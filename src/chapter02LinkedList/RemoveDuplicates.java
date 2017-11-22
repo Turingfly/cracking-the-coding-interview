@@ -5,16 +5,14 @@ import java.util.Set;
 
 /**
  * 
- * @author chengfeili 
- * Jun 19, 2017 7:40:58 PM
- * 
- *         Problem: Write code to remove duplicates from an unsorted linked
- *         list. 1 -> 2 -> 1 ===> 1 -> 2 
- *         Solution:
+ * Problem: Write code to remove duplicates from an unsorted linked list. 1 -> 2
+ * -> 1 ===> 1 -> 2
  *
  */
 public class RemoveDuplicates {
-	// method 1: with temporary buffer.
+	/**
+	 * method 1: with temporary buffer.
+	 */
 	public ListNode deleteDups(ListNode node) {
 		if (node == null) {
 			return null;
@@ -32,8 +30,9 @@ public class RemoveDuplicates {
 		return head;
 	}
 
-	// method 2: without temporary buffer.
-	// two pointers. time O(N2), space O(1)
+	/**
+	 * method 2: without temporary buffer. two pointers. time O(N2), space O(1)
+	 */
 	public ListNode deleteDups2(ListNode node) {
 		ListNode head = node;
 		while (node != null) {

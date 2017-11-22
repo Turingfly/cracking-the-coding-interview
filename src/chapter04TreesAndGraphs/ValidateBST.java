@@ -2,23 +2,22 @@ package chapter04TreesAndGraphs;
 
 /**
  * 
- * @author chengfeili 
- * Jun 22, 2017 7:52:41 PM
- * 
- *         Problem: Implement a function to check if a binary tree is a binary
- *         search tree.
+ * Problem: Implement a function to check if a binary tree is a binary search
+ * tree.
  *
- *         Solution: The first leverages the in-order traversal, and the second
- *         builds off the property that left <= current < right
- *         
- *         Time Complexity: O(N)
- *         
- *         Space Complexity: O(H). H is the height of the tree.
+ * Solution: The first leverages the in-order traversal, and the second builds
+ * off the property that left <= current < right
+ * 
+ * Time Complexity: O(N)
+ * 
+ * Space Complexity: O(H). H is the height of the tree.
  *
  */
 public class ValidateBST {
-	// method 1: Assume that the tree cannot have duplicate values. In-Order
-	// Traversal
+	/**
+	 * method 1: Assume that the tree cannot have duplicate values. In-Order
+	 * Traversal
+	 */
 	class WrapInt {
 		public int val;
 
@@ -49,11 +48,13 @@ public class ValidateBST {
 		return true;
 	}
 
-	// method 2: left <= current < right; The Min / Max Solution
+	/**
+	 *  method 2: left <= current < right; The Min / Max Solution
+	 */
 	public boolean isValidBST2(TreeNode root) {
 		return check(root, null, null);
 	}
-	
+
 	public boolean check(TreeNode root, Integer min, Integer max) {
 		if (root == null) {
 			return true;

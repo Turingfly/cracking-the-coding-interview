@@ -3,21 +3,16 @@ package chapter03StacksAndQueues;
 import java.util.Stack;
 
 /**
- * 
- * @author chengfeili 
- * Jun 21, 2017 11:36:04 AM
- * 
- *         Problem: Write a program to sort a stack such that the smallest items
- *         are on the top. You can use an additional temporary stack, but you
- *         may not copy the elements into any other data structure (such as an
- *         array). The stack supports the following operations: push, pop, peek,
- *         and isEmpty.
+ * Problem: Write a program to sort a stack such that the smallest items are on
+ * the top. You can use an additional temporary stack, but you may not copy the
+ * elements into any other data structure (such as an array). The stack supports
+ * the following operations: push, pop, peek, and isEmpty.
  *
- *         Solution:
- *         
- *         Time Complexity: O(N2)
- *         
- *         Space Complexity: O(N)
+ * Solution:
+ * 
+ * Time Complexity: O(N2)
+ * 
+ * Space Complexity: O(N)
  *
  */
 public class SortStack {
